@@ -27,7 +27,6 @@ export default function Home() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
-  const [loadedImages, setLoadedImages] = useState(0);
   const totalImages = 15; // Total number of images in your site
 
   const scrollTo = useCallback((index: number) => {
@@ -41,7 +40,7 @@ export default function Home() {
     onSelect();
 
     // Autoplay logic
-    let autoplay = setInterval(() => {
+    const autoplay = setInterval(() => {
       if (emblaApi) emblaApi.scrollNext();
     }, 5000);
 
@@ -61,16 +60,7 @@ export default function Home() {
   // Add image loading detection
   useEffect(() => {
     const handleImageLoad = () => {
-      setLoadedImages(prev => {
-        const newCount = prev + 1;
-        if (newCount === totalImages) {
-          // Add a small delay before hiding loading screen
-          setTimeout(() => {
-            setIsLoading(false);
-          }, 500);
-        }
-        return newCount;
-      });
+      setIsLoading(false);
     };
 
     // Get all images in the document
@@ -309,7 +299,7 @@ export default function Home() {
             <div className="absolute inset-0 opacity-10 bg-no-repeat bg-center bg-contain pointer-events-none" />
             <div className="relative z-10 w-full max-w-xl mx-auto">
               <h2 className="text-4xl md:text-5xl font-serif text-white mb-4">Make an appointment</h2>
-              <p className="text-[#bdbdbd] mb-8 text-lg">Barber is a person whose occupation is mainly to cut dress groom style and shave men's and boys hair.</p>
+              <p className="text-[#bdbdbd] mb-8 text-lg">Barber is a person whose occupation is mainly to cut dress groom style and shave men&apos;s and boys hair.</p>
               <form className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input type="text" placeholder="Name" className="bg-transparent border border-[#bdbdbd] text-white px-4 py-3 focus:outline-none focus:border-[#a89787] placeholder-[#bdbdbd]" />
                 <input type="email" placeholder="Your Email" className="bg-transparent border border-[#bdbdbd] text-white px-4 py-3 focus:outline-none focus:border-[#a89787] placeholder-[#bdbdbd]" />

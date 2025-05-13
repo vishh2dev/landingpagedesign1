@@ -394,7 +394,7 @@ export default function Home() {
                     <span className="flex-grow border-t border-dotted border-[#a89787] mx-2" />
                     <span className="text-3xl font-serif text-[#a89787] font-bold">$9</span>
                   </div>
-                  <p className="text-[#6b6b6b] text-base">Shape and define your beard with precision trimming. From subtle contours to bold lines, we enhance your beard’s style.</p>
+                  <p className="text-[#6b6b6b] text-base">Shape and define your beard with precision trimming. From subtle contours to bold lines, we enhance your beard&apos;s style.</p>
                 </div>
                 {/* Service 3 */}
                 <div>

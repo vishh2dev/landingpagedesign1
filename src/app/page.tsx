@@ -359,7 +359,7 @@ export default function Home() {
                     <span className="flex-grow border-t border-dotted border-[#a89787] mx-2" />
                     <span className="text-3xl font-serif text-[#a89787] font-bold">$9</span>
                   </div>
-                  <p className="text-[#6b6b6b] text-base">Get the perfect finish with our expert hair styling services. Whether it's a casual day or a special occasion, we style you to impress.</p>
+                  <p className="text-[#6b6b6b] text-base">Get the perfect finish with our expert hair styling services. Whether it&apos;s a casual day or a special occasion, we style you to impress.</p>
                 </div>
                 {/* Service 3 */}
                 <div>

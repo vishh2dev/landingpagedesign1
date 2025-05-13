@@ -219,28 +219,28 @@ export default function Home() {
               {/* Scissors SVG */}
               <img src="/scissor.webp" alt="Scissors" className="mb-4 w-12 h-12 object-contain" />
               <h3 className="text-2xl font-serif text-[#222] mb-2">Haircut Styles</h3>
-              <p className="text-[#6b6b6b]">Barber is a person whose occupation is mainly to cut dress style.</p>
+              <p className="text-[#6b6b6b]">Precision haircuts tailored to your face shape and personal style. From classic fades to modern trends, we craft every cut with care and creativity.</p>
             </div>
             {/* Card 2 */}
             <div className="bg-white rounded-xl shadow-[0_8px_40px_0_rgba(169,151,135,0.10)] p-10 flex flex-col items-center text-center transition-transform hover:-translate-y-2">
               {/* Razor SVG */}
               <img src="/razor.webp" alt="Razor" className="mb-4 w-12 h-12 object-contain" />
               <h3 className="text-2xl font-serif text-[#222] mb-2">Beard Triming</h3>
-              <p className="text-[#6b6b6b]">Barber is a person whose occupation is mainly to cut dress style.</p>
+              <p className="text-[#6b6b6b]">Keep your beard sharp and well-groomed with our expert trimming services. We shape, define, and maintain your beard to perfection.</p>
             </div>
             {/* Card 3 */}
             <div className="bg-white rounded-xl shadow-[0_8px_40px_0_rgba(169,151,135,0.10)] p-10 flex flex-col items-center text-center transition-transform hover:-translate-y-2">
               {/* Brush SVG */}
               <img src="/barber-shave.webp" alt="Barber Shave" className="mb-4 w-12 h-12 object-contain" />
               <h3 className="text-2xl font-serif text-[#222] mb-2">Smooth Shave</h3>
-              <p className="text-[#6b6b6b]">Barber is a person whose occupation is mainly to cut dress style.</p>
+              <p className="text-[#6b6b6b]">Experience a close, comfortable shave using premium blades and techniques for a smooth, refreshed feel every time.</p>
             </div>
             {/* Card 4 */}
             <div className="bg-white rounded-xl shadow-[0_8px_40px_0_rgba(169,151,135,0.10)] p-10 flex flex-col items-center text-center transition-transform hover:-translate-y-2">
               {/* Comb SVG */}
               <img src="/face-mask.webp" alt="Face Mask" className="mb-4 w-12 h-12 object-contain" />
               <h3 className="text-2xl font-serif text-[#222] mb-2">Face Masking</h3>
-              <p className="text-[#6b6b6b]">Barber is a person whose occupation is mainly to cut dress style.</p>
+              <p className="text-[#6b6b6b]">Rejuvenate your skin with our deep-cleansing face masks. Designed to detox, hydrate, and leave your skin glowing and refreshed.</p>
             </div>
           </div>
         </div>
@@ -359,7 +359,7 @@ export default function Home() {
                     <span className="flex-grow border-t border-dotted border-[#a89787] mx-2" />
                     <span className="text-3xl font-serif text-[#a89787] font-bold">$9</span>
                   </div>
-                  <p className="text-[#6b6b6b] text-base">Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
+                  <p className="text-[#6b6b6b] text-base">Get the perfect finish with our expert hair styling services. Whether it's a casual day or a special occasion, we style you to impress.</p>
                 </div>
                 {/* Service 3 */}
                 <div>
@@ -368,7 +368,7 @@ export default function Home() {
                     <span className="flex-grow border-t border-dotted border-[#a89787] mx-2" />
                     <span className="text-3xl font-serif text-[#a89787] font-bold">$10</span>
                   </div>
-                  <p className="text-[#6b6b6b] text-base">Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
+                  <p className="text-[#6b6b6b] text-base">Maintain your look with a neat and even trim. Ideal for quick touch-ups that keep your hair looking fresh and well-groomed.</p>
                 </div>
               </div>
             </div>
@@ -385,7 +385,7 @@ export default function Home() {
                     <span className="flex-grow border-t border-dotted border-[#a89787] mx-2" />
                     <span className="text-3xl font-serif text-[#a89787] font-bold">$8</span>
                   </div>
-                  <p className="text-[#6b6b6b] text-base">Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
+                  <p className="text-[#6b6b6b] text-base">Enjoy a smooth, close shave that leaves your skin fresh and revitalized. Perfect for a sharp, clean look.</p>
                 </div>
                 {/* Service 2 */}
                 <div>
@@ -394,7 +394,7 @@ export default function Home() {
                     <span className="flex-grow border-t border-dotted border-[#a89787] mx-2" />
                     <span className="text-3xl font-serif text-[#a89787] font-bold">$9</span>
                   </div>
-                  <p className="text-[#6b6b6b] text-base">Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
+                  <p className="text-[#6b6b6b] text-base">Shape and define your beard with precision trimming. From subtle contours to bold lines, we enhance your beard’s style.</p>
                 </div>
                 {/* Service 3 */}
                 <div>
@@ -403,7 +403,7 @@ export default function Home() {
                     <span className="flex-grow border-t border-dotted border-[#a89787] mx-2" />
                     <span className="text-3xl font-serif text-[#a89787] font-bold">$10</span>
                   </div>
-                  <p className="text-[#6b6b6b] text-base">Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
+                  <p className="text-[#6b6b6b] text-base">Relax with our luxury shaving service using hot towels and premium products for a soft, irritation-free finish.</p>
                 </div>
               </div>
             </div>
@@ -420,7 +420,7 @@ export default function Home() {
                     <span className="flex-grow border-t border-dotted border-[#a89787] mx-2" />
                     <span className="text-3xl font-serif text-[#a89787] font-bold">$8</span>
                   </div>
-                  <p className="text-[#6b6b6b] text-base">Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
+                  <p className="text-[#6b6b6b] text-base">Brighten and hydrate your skin with our white facial treatment. Helps reduce blemishes and rejuvenate tired-looking skin.</p>
                 </div>
                 {/* Service 2 */}
                 <div>
@@ -429,7 +429,7 @@ export default function Home() {
                     <span className="flex-grow border-t border-dotted border-[#a89787] mx-2" />
                     <span className="text-3xl font-serif text-[#a89787] font-bold">$9</span>
                   </div>
-                  <p className="text-[#6b6b6b] text-base">Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
+                  <p className="text-[#6b6b6b] text-base">Deep cleansing to remove dirt, oil, and dead skin. Leaves your face refreshed, smooth, and glowing.</p>
                 </div>
                 {/* Service 3 */}
                 <div>
@@ -438,7 +438,7 @@ export default function Home() {
                     <span className="flex-grow border-t border-dotted border-[#a89787] mx-2" />
                     <span className="text-3xl font-serif text-[#a89787] font-bold">$10</span>
                   </div>
-                  <p className="text-[#6b6b6b] text-base">Barber is a person whose occupation is mainly to cut dress groom style and shave men.</p>
+                  <p className="text-[#6b6b6b] text-base">A revitalizing treatment that restores your natural glow and evens skin tone for a radiant, healthy look.</p>
                 </div>
               </div>
             </div>
